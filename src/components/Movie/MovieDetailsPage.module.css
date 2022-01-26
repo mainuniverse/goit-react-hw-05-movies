@@ -1,0 +1,17 @@
+.wrapperDetailPage {
+  padding: 20px;
+}
+
+.buttonGoBack {
+  font-size: 15px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.mainCard {
+  display: flex;
+}
+
+.mainInfo {
+  margin-left: 25px;
+}
