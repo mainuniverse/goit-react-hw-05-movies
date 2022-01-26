@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "netlify deploy-ppm run deploy",
+    "deploy": "netlify deploy-p",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
