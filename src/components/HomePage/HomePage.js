@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Link, useRouteMatch, useLocation } from 'react-router-dom';
-
 import { fetchTrendingMovies } from '../../services/fetchAPI';
 
 export default function HomePage() {

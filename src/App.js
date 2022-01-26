@@ -13,6 +13,7 @@ const MovieDetailsPage = lazy(() =>
   ),
 );
 
+    
 function App() {
   return (
     <div className="App">
@@ -25,7 +26,8 @@ function App() {
         </NavLink>
       </nav>
 
-      <Suspense fallback={<h1>loading...</h1>}>
+
+          <Suspense fallback={<h1>loading...</h1>}>
         <Switch>
           <Route path="/" exact component={HomePage} />
           <Route path="/movies" exact component={MoviesPage} />
@@ -38,3 +40,16 @@ function App() {
 }
 
 export default App;
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <nav className="mainNav">
+//         <NavLink exact to="/" className="mainNavLink" activeClassName="active">
+//           Home
+//         </NavLink>
+//         <NavLink to="/movies" className="mainNavLink" activeClassName="active">
+//           Movies
+//         </NavLink>
+//       </nav>

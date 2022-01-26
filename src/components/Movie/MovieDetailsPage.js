@@ -64,10 +64,10 @@ export default function MovieDetailsPage() {
             </div>
           </section>
           <hr />
-          <p>Additional information </p>
+          <p className={styles.addInfo}>Additional information </p>
           <ul>
-            <li>
-              <Link
+            <li >
+              <Link className={styles.mainInfoLink}
                 to={{
                   pathname: `/movies/${moviesId}/cast`,
                   state: { from: prevLocation },
@@ -76,8 +76,8 @@ export default function MovieDetailsPage() {
                 Cast
               </Link>
             </li>
-            <li>
-              <Link
+            <li >
+              <Link className={styles.mainInfoLink}
                 to={{
                   pathname: `/movies/${moviesId}/reviews`,
                   state: { from: prevLocation },

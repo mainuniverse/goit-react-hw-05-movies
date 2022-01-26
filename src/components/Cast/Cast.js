@@ -14,7 +14,7 @@ export default function Cast({ moviesId }) {
       {actors && (
         <ul>
           {actors.map(actor => (
-            <li key={actor.id}>
+            <li key={actor.id} className="listMovies">
               <img
                 src={
                   actor.profile_path
